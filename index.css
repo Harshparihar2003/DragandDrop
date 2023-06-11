@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(200, 215, 171);
+}
+.container{
+    width: 1000px;
+    height: 350px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid red;
+    border-radius: 15px;
+    background-color: rgb(195, 234, 234);
+}
+.heading{
+    text-align: center;
+    margin-top: 50px;
+}
+.drag-drop-container{
+    height: 90%;
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 200px;
+    background: rgb(202, 202, 253);
+    border-radius: 15px;
+}
+.items{
+    text-align: center;
+    background: white;
+    margin: 5px;
+    height: 30px;
+    border-radius: 8px;
+}
+.drag-drop-container.dragover {
+    background-color: rgb(238, 132, 238);
+    border-style: dashed;
+  }
+.dragging {
+    opacity: 0.5;
+  }
+
+.hide{
+    display: none;
+}
